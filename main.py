@@ -2,7 +2,7 @@ import random
 
 n = 1 
 
-while n == 1:
+while n != 2:
     print("---MENU---\n"
     +"1-Gerar um numero\n"
     +"2-Finalizar programa")
