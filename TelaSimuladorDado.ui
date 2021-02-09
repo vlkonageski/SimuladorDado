@@ -31,7 +31,7 @@
 font: 75 italic 12pt &quot;Times New Roman&quot;;</string>
     </property>
     <property name="text">
-     <string>Girar Dado</string>
+     <string>Jogar Dado</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">

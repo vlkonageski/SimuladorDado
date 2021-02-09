@@ -4,7 +4,7 @@ n = 1
 
 while n != 2:
     print("---MENU---\n"
-    +"1-Gerar um numero\n"
+    +"1-Jogar Dado\n"
     +"2-Finalizar programa")
     n = int(input("Informe a opcao desejada:"))
     if n == 1:
