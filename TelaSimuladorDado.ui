@@ -6,57 +6,41 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>446</width>
-    <height>544</height>
+    <width>391</width>
+    <height>462</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(85, 170, 255);</string>
+   <string notr="true">background-color: rgb(144, 144, 144);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>280</y>
+      <x>116</x>
+      <y>199</y>
       <width>181</width>
-      <height>51</height>
+      <height>50</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 170, 0);
+     <string notr="true">background-color: rgb(0, 170, 255);
 font: 75 italic 12pt &quot;Times New Roman&quot;;</string>
     </property>
     <property name="text">
      <string>Jogar Dado</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>290</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>dice-with-number-five.png</pixmap>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>120</y>
+      <x>130</x>
+      <y>60</y>
       <width>151</width>
-      <height>71</height>
+      <height>70</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -71,13 +55,30 @@ border-color: rgb(255, 170, 0);</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>116</x>
+      <y>269</y>
+      <width>181</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 170, 255);
+font: 75 italic 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Voltar</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>446</width>
+     <width>391</width>
      <height>21</height>
     </rect>
    </property>
